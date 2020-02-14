@@ -1,0 +1,25 @@
+@keyframes animEntete{
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    33% {
+        opacity: 1;
+        transform: translateX(-50px);
+    }
+
+    66% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(-100px);
+    }
+}
+
+.animEntete {
+    animation : animEntete 1s;
+}
