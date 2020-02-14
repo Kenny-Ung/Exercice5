@@ -20,7 +20,13 @@ export class Slider {
             elmSlide.id = 'slides-' + k
             k++
             elmSlides.appendChild(elmSlide)
+            
+            let elmSlideImg = document.createElement('img')
+            
+            elmSlide.appendChild(elmSlideImg)
+            
         }
+        
         elmSlider.appendChild(elmSlides)
         this.elmMonSlider.appendChild(elmSlider)
     }
