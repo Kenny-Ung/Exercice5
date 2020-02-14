@@ -1,6 +1,7 @@
 @keyframes animEntete{
     from {
         opacity: 0;
+        color: initial;
         transform: translateX(50px);
     }
 
@@ -16,6 +17,7 @@
 
     to{
         opacity: 1;
+        color: black;
         transform: translateX(0px);
     }
 }
